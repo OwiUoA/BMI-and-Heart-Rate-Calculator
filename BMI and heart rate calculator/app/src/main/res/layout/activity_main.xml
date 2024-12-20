@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/weight_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter weight (lbs)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/height_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter height (inches)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculate_bmi_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI" />
+
+    <Button
+        android:id="@+id/clear_bmi_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/calculate_heart_rate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Heart Rate" />
+
+    <TextView
+        android:id="@+id/bmi_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="BMI Result"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/bmi_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="BMI Message"
+        android:textSize="18sp" />
+</LinearLayout>
